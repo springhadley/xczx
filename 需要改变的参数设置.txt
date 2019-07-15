@@ -1,0 +1,55 @@
+filesystem:
+fastdfs:    192.168.25.153:22122
+mongo:    mongodb://127.0.0.1:27017
+
+learning :
+mysql password :root
+
+cms:
+mongodb:mongodb://localhost:27017
+
+
+cms-client
+mongodb:mongodb://localhost:27017
+
+course:
+templateId: 5cff6dfcdf6d570b0c4b9085
+siteId: 5a751fab6abb5044e0d19ea1
+fmt:   yyyy
+mysql   root
+mapper:      
+<result column="media_fileoriginalname" property="mediaFileOriginalName"></result>
+
+
+media:
+upload-location: E:/develop/video/
+
+
+
+media-processor
+mongodb:   uri:  mongodb://localhost:27017
+video-location: E:/develop/video/
+ ffmpeg-path: D:/ProgramFiles/ffmpeg-20180227-fa0c9d6-win64-static/bin/ffmpeg.exe
+
+
+order:
+password: root
+
+mdel:
+TeachplanNode   mediaFileOriginalName
+
+ucenter
+password: root
+
+oautho
+ password: root
+
+
+
+…Í«Î ⁄»®¬Î
+localhost:40400/auth/oauth/authorize?client_id=XcWebApp&response_type=code&scop=app&redirect_uri=http://localhost
+
+8zUkeF
+
+
+
